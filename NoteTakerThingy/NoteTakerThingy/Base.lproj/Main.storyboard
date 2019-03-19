@@ -214,33 +214,41 @@
         <!--Title-->
         <scene sceneID="9bZ-Ck-rHq">
             <objects>
-                <tableViewController id="CwC-0i-UXI" sceneMemberID="viewController">
+                <tableViewController id="CwC-0i-UXI" customClass="ViewController" customModule="NoteTakerThingy" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Pc7-ws-3tf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexBackgroundColor" red="0.076081834730000006" green="0.24708920719999999" blue="0.45310473439999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="kiq-02-TLV">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell_todo" rowHeight="123" id="kiq-02-TLV">
+                                <rect key="frame" x="0.0" y="28" width="375" height="123"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kiq-02-TLV" id="vAr-vI-j4p">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="122.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VL5-yT-4yN">
+                                            <rect key="frame" x="16" y="0.0" width="313" height="145"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="CwC-0i-UXI" id="D15-lO-oZ3"/>
-                            <outlet property="delegate" destination="CwC-0i-UXI" id="pqA-v5-idr"/>
+                            <outlet property="delegate" destination="CwC-0i-UXI" id="7tJ-N5-NSd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Title" id="f85-h8-plS">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="a1F-Zj-v0R"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Title" id="f85-h8-plS"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ax4-jc-3Zi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2628" y="1056.5217391304348"/>
+            <point key="canvasLocation" x="2628" y="1055.6221889055473"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bwa-IS-Rbc">

@@ -15,6 +15,8 @@
 		63BCC9482230358900190199 /* NoteTakerThingy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63BCC9462230358900190199 /* NoteTakerThingy.xcdatamodeld */; };
 		63BCC94A2230358D00190199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BCC9492230358D00190199 /* Assets.xcassets */; };
 		63BCC94D2230358D00190199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BCC94B2230358D00190199 /* LaunchScreen.storyboard */; };
+		63EA067B2240BE6F003E6CE1 /* MyToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA067A2240BE6F003E6CE1 /* MyToDo.swift */; };
+		63EA067D2240BE81003E6CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA067C2240BE81003E6CE1 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		63BCC9492230358D00190199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63BCC94C2230358D00190199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63BCC94E2230358D00190199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EA067A2240BE6F003E6CE1 /* MyToDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyToDo.swift; sourceTree = "<group>"; };
+		63EA067C2240BE81003E6CE1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,9 @@
 			children = (
 				63BCC93F2230358900190199 /* AppDelegate.swift */,
 				63B1AE892234C0850034970E /* NotesTableViewController.swift */,
+				63EA067C2240BE81003E6CE1 /* ViewController.swift */,
 				63B1AE8B2234C1D80034970E /* NotesTableViewCell.swift */,
+				63EA067A2240BE6F003E6CE1 /* MyToDo.swift */,
 				63B1AE8D2234C2CC0034970E /* detailedNotesViewController.swift */,
 				63BCC9432230358900190199 /* Main.storyboard */,
 				63BCC9492230358D00190199 /* Assets.xcassets */,
@@ -147,6 +153,8 @@
 				63BCC9482230358900190199 /* NoteTakerThingy.xcdatamodeld in Sources */,
 				63BCC9402230358900190199 /* AppDelegate.swift in Sources */,
 				63B1AE8E2234C2CC0034970E /* detailedNotesViewController.swift in Sources */,
+				63EA067B2240BE6F003E6CE1 /* MyToDo.swift in Sources */,
+				63EA067D2240BE81003E6CE1 /* ViewController.swift in Sources */,
 				63B1AE8A2234C0850034970E /* NotesTableViewController.swift in Sources */,
 				63B1AE8C2234C1D80034970E /* NotesTableViewCell.swift in Sources */,
 			);
