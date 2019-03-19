@@ -62,15 +62,7 @@ class detailedNotesViewController: UIViewController, UITextFieldDelegate,  UINav
         noteInfoView.layer.shadowRadius = 1.5
         noteInfoView.layer.shadowOpacity = 0.2
         noteInfoView.layer.cornerRadius = 2
-        
-       /* noteImageViewView.layer.shadowColor =  UIColor(red:0/255.0, green:0/255.0, blue:0/255.0, alpha: 1.0).cgColor
-        noteImageViewView.layer.shadowOffset = CGSize(width: 0.75, height: 0.75)
-        noteImageViewView.layer.shadowRadius = 1.5
-        noteImageViewView.layer.shadowOpacity = 0.2
-        noteImageViewView.layer.cornerRadius = 5
-        
-        noteImageView.layer.cornerRadius = 2
-        */
+    
         noteNameLabel.setBottomBorder()
         
     }
@@ -98,58 +90,7 @@ class detailedNotesViewController: UIViewController, UITextFieldDelegate,  UINav
         }
         
     }
-    
-    // Image Picker
-    @IBAction func pickImageButtonWasPressed(_ sender: Any) {
-        
-        let pickerController = UIImagePickerController()
-        pickerController.delegate = self
-        pickerController.allowsEditing = true
-        
-        let alertController = UIAlertController(title: "Add an Image", message: "Choose From", preferredStyle: .actionSheet)
-        
-        let cameraAction = UIAlertAction(title: "Camera", style: .default) { (action) in
-            pickerController.sourceType = .camera
-            self.present(pickerController, animated: true, completion: nil)
-            
-        }
-        
-        let photosLibraryAction = UIAlertAction(title: "Photos Library", style: .default) { (action) in
-            pickerController.sourceType = .photoLibrary
-            self.present(pickerController, animated: true, completion: nil)
-            
-        }
-        
-        let savedPhotosAction = UIAlertAction(title: "Saved Photos Album", style: .default) { (action) in
-            pickerController.sourceType = .savedPhotosAlbum
-            self.present(pickerController, animated: true, completion: nil)
-            
-        }
-        
-        let cancelAction = UIAlertAction(title: "Cancel", style: .destructive, handler: nil)
-        
-        alertController.addAction(cameraAction)
-        alertController.addAction(photosLibraryAction)
-        alertController.addAction(savedPhotosAction)
-        alertController.addAction(cancelAction)
-        
-        present(alertController, animated: true, completion: nil)
-        
-    }
-    
-    private func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        self.dismiss(animated: true, completion: nil)
-        
-        if let image = info[.originalImage] as? UIImage {
-            self.noteImageView.image = image
-            
-        }
-    }
-    
-    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        picker.dismiss(animated: true, completion: nil)
-        
-    }
+
     
     // Save
     @IBAction func saveButtonWasPressed(_ sender: UIBarButtonItem) {

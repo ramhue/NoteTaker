@@ -12,7 +12,6 @@ class NotesTableViewCell: UITableViewCell {
 
     @IBOutlet weak var noteNameLabel: UILabel!
     @IBOutlet weak var noteDescriptionLabel: UILabel!
-    @IBOutlet weak var noteImageView: UIImageView!
     @IBOutlet weak var shadowView: UIView!
     
     override func awakeFromNib() {
@@ -25,7 +24,7 @@ class NotesTableViewCell: UITableViewCell {
         shadowView.layer.shadowOpacity = 0.2
         shadowView.layer.cornerRadius = 2
         
-        //noteImageView.layer.cornerRadius = 2
+        
         
     }
     

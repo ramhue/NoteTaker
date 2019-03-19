@@ -6,93 +6,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NoteTakerThingy/NotesTableViewCell.swift"
-            timestampString = "574617602.325231"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "NotesTableViewCell"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NoteTakerThingy.NotesTableViewCell.noteImageView.getter : weak Swift.Optional&lt;__C.UIImageView&gt;"
-                  moduleName = "NoteTakerThingy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/campususer/Documents/XCode_Projects/NoteTakerThingy/NoteTakerThingy/NotesTableViewCell.swift"
-                  timestampString = "574023920.36034"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NoteTakerThingy.NotesTableViewCell.noteImageView.setter : weak Swift.Optional&lt;__C.UIImageView&gt;"
-                  moduleName = "NoteTakerThingy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/campususer/Documents/XCode_Projects/NoteTakerThingy/NoteTakerThingy/NotesTableViewCell.swift"
-                  timestampString = "574023920.363996"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "106">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NoteTakerThingy.NotesTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; NoteTakerThingy.NotesTableViewCell"
-                  moduleName = "NoteTakerThingy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/campususer/Documents/XCode_Projects/NoteTakerThingy/NoteTakerThingy/NotesTableViewCell.swift"
-                  timestampString = "574023920.3674819"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "285">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NoteTakerThingy.NotesTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NoteTakerThingy.NotesTableViewCell&gt;"
-                  moduleName = "NoteTakerThingy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/campususer/Documents/XCode_Projects/NoteTakerThingy/NoteTakerThingy/NotesTableViewCell.swift"
-                  timestampString = "574023920.3705471"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "256">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.371881"
+            timestampString = "574668257.019644"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "saveButtonWasPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -104,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.375093"
+            timestampString = "574668257.0197721"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "167"
-            endingLineNumber = "167"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "saveButtonWasPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -120,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.375753"
+            timestampString = "574668257.019847"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "saveButtonWasPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -136,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.3763911"
+            timestampString = "574668257.01992"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "169"
-            endingLineNumber = "169"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "saveButtonWasPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -152,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.376977"
+            timestampString = "574668257.019987"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "170"
-            endingLineNumber = "170"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "saveButtonWasPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -168,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.377669"
+            timestampString = "574668257.0200551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "172"
-            endingLineNumber = "172"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
             landmarkName = "saveButtonWasPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -184,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.378311"
+            timestampString = "574668257.0201761"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "173"
-            endingLineNumber = "173"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "saveButtonWasPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -200,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.378966"
+            timestampString = "574668257.020286"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "179"
-            endingLineNumber = "179"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
             landmarkName = "saveButtonWasPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -216,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.379583"
+            timestampString = "574668257.020372"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "saveButtonWasPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -232,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.3802561"
+            timestampString = "574668257.020601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "182"
-            endingLineNumber = "182"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "saveButtonWasPressed(_:)"
             landmarkType = "7">
             <Locations>
@@ -248,11 +170,11 @@
                   moduleName = "NoteTakerThingy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/campususer/Documents/XCode_Projects/NoteTakerThingy/NoteTakerThingy/detailedNotesViewController.swift"
-                  timestampString = "574619253.676307"
+                  timestampString = "574668257.146324"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "182"
-                  endingLineNumber = "182"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
                   offsetFromSymbolStart = "4523">
                </Location>
                <Location
@@ -263,11 +185,11 @@
                   moduleName = "NoteTakerThingy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/campususer/Documents/XCode_Projects/NoteTakerThingy/NoteTakerThingy/detailedNotesViewController.swift"
-                  timestampString = "574619253.679822"
+                  timestampString = "574668257.14975"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "184"
-                  endingLineNumber = "184"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
                   offsetFromSymbolStart = "23">
                </Location>
             </Locations>
@@ -280,12 +202,92 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.380838"
+            timestampString = "574668257.0207109"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "saveButtonWasPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NoteTakerThingy/detailedNotesViewController.swift"
+            timestampString = "574668257.0208189"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "saveButtonWasPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NoteTakerThingy/detailedNotesViewController.swift"
+            timestampString = "574668257.020927"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "saveButtonWasPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NoteTakerThingy/detailedNotesViewController.swift"
+            timestampString = "574668257.021129"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "saveButtonWasPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NoteTakerThingy/detailedNotesViewController.swift"
+            timestampString = "574668257.021251"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "saveButtonWasPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NoteTakerThingy/detailedNotesViewController.swift"
+            timestampString = "574668257.0214"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "184"
             endingLineNumber = "184"
-            landmarkName = "saveButtonWasPressed(_:)"
+            landmarkName = "cancel(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -296,12 +298,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.381409"
+            timestampString = "574668257.021512"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "186"
             endingLineNumber = "186"
-            landmarkName = "saveButtonWasPressed(_:)"
+            landmarkName = "cancel(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -312,44 +314,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.382136"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "191"
-            endingLineNumber = "191"
-            landmarkName = "saveButtonWasPressed(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.382754"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "192"
-            endingLineNumber = "192"
-            landmarkName = "saveButtonWasPressed(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NoteTakerThingy/detailedNotesViewController.swift"
-            timestampString = "574619253.383337"
+            timestampString = "574668257.021613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "187"
             endingLineNumber = "187"
-            landmarkName = "saveButtonWasPressed(_:)"
+            landmarkName = "cancel(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NoteTakerThingy/detailedNotesViewController.swift"
+            timestampString = "574668257.0217299"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "cancel(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NoteTakerThingy/detailedNotesViewController.swift"
+            timestampString = "574668257.0218641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "cancel(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
