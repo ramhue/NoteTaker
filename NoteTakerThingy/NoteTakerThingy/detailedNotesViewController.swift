@@ -240,7 +240,7 @@ class detailedNotesViewController: UIViewController, UITextFieldDelegate,  UINav
     
     // Cancel
     @IBAction func cancel(_ sender: UIBarButtonItem) {
-        let isPresentingInAddFluidPatientMode = presentingViewController is UINavigationController
+        let isPresentingInAddFluidPatientMode = presentingViewController is UITabBarController
         
         if isPresentingInAddFluidPatientMode {
             dismiss(animated: true, completion: nil)
