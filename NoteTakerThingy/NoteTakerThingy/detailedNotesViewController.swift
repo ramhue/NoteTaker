@@ -13,12 +13,6 @@ import CoreData
 
 class detailedNotesViewController: UIViewController, UITextFieldDelegate,  UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextViewDelegate {
     
-  //  @IBOutlet weak var noteInfoView: UIView!
-    //@IBOutlet weak var noteImageViewView: UIView!
-    
-    //@IBOutlet weak var noteNameLabel: UITextField!
-    //@IBOutlet weak var noteDescriptionLabel: UITextView!
-    
     @IBOutlet weak var noteImageView: UIImageView!
     @IBOutlet weak var noteInfoView: UIView!
     @IBOutlet weak var noteImageViewView: UIView!
